@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/defaults">
+        <file>defaults/activities.json</file>
+        <file>defaults/tasks.json</file>
+        <file>defaults/settings.json</file>
+        <file>defaults/SchoolPeriods.json</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>styles/app.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,196 @@
+{
+  "subjects": {
+    "Mathematics": {
+      "teacher": "Various",
+      "color": "#FF6B6B"
+    },
+    "English": {
+      "teacher": "Various",
+      "color": "#4ECDC4"
+    },
+    "Geography": {
+      "teacher": "Various",
+      "color": "#45B7D1"
+    },
+    "Computing Technology": {
+      "teacher": "Various",
+      "color": "#96CEB4"
+    },
+    "Engineering Technology": {
+      "teacher": "Various",
+      "color": "#FFEAA7"
+    },
+    "Physical Education": {
+      "teacher": "Various",
+      "color": "#DDA0DD"
+    },
+    "PDH": {
+      "teacher": "Various",
+      "color": "#F39C12"
+    },
+    "Science": {
+      "teacher": "Various",
+      "color": "#E74C3C"
+    },
+    "Independent Learning Project": {
+      "teacher": "Various",
+      "color": "#9B59B6"
+    },
+    "Racquet Sports": {
+      "teacher": "Various",
+      "color": "#1ABC9C"
+    },
+    "Assembly": {
+      "teacher": "Various",
+      "color": "#34495E"
+    }
+  },
+  "period_times": {
+    "standard_days": {
+      "0": {"start_time": "07:55", "end_time": "08:55"},
+      "1": {"start_time": "08:55", "end_time": "09:50"},
+      "2": {"start_time": "09:50", "end_time": "10:45"},
+      "recess": {"start_time": "10:45", "end_time": "11:05"},
+      "3": {"start_time": "11:05", "end_time": "12:00"},
+      "4": {"start_time": "12:00", "end_time": "12:55"},
+      "lunch": {"start_time": "12:55", "end_time": "13:35"},
+      "5": {"start_time": "13:35", "end_time": "14:30"},
+      "6": {"start_time": "14:30", "end_time": "15:25"},
+      "7": {"start_time": "15:25", "end_time": "16:20"},
+      "8": {"start_time": "16:20", "end_time": "17:15"},
+      "9": {"start_time": "17:15", "end_time": "18:09"}
+    },
+    "wednesday_year10": {
+      "0": {"start_time": "07:55", "end_time": "08:55"},
+      "1": {"start_time": "08:55", "end_time": "09:50"},
+      "2": {"start_time": "09:50", "end_time": "10:45"},
+      "assembly": {"start_time": "10:45", "end_time": "11:05"},
+      "recess": {"start_time": "11:05", "end_time": "11:25"},
+      "3": {"start_time": "11:25", "end_time": "12:20"},
+      "lunch": {"start_time": "12:20", "end_time": "13:00"},
+      "6": {"start_time": "13:00", "end_time": "14:29"}
+    },
+    "wednesday_year11": {
+      "0": {"start_time": "07:55", "end_time": "08:55"},
+      "1": {"start_time": "08:55", "end_time": "09:50"},
+      "2": {"start_time": "09:50", "end_time": "10:45"},
+      "assembly": {"start_time": "10:45", "end_time": "11:05"},
+      "recess": {"start_time": "11:05", "end_time": "11:25"},
+      "3": {"start_time": "11:25", "end_time": "12:20"},
+      "lunch": {"start_time": "12:20", "end_time": "13:00"},
+      "4": {"start_time": "13:00", "end_time": "13:55"},
+      "5": {"start_time": "13:55", "end_time": "14:50"},
+      "6": {"start_time": "14:50", "end_time": "15:45"},
+      "7": {"start_time": "15:45", "end_time": "17:15"},
+      "9": {"start_time": "17:15", "end_time": "18:09"}
+    }
+  },
+  "schedule": {
+    "A": {
+      "Monday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "Science", "room": "118"},
+          "2": {"subject": "Computing Technology", "room": "166"},
+          "3": {"subject": "English", "room": "139"},
+          "4": {"subject": "Geography", "room": "33"},
+          "5": {"subject": "Mathematics", "room": "159"},
+          "6": {"subject": "Geography", "room": "33"}
+        }
+      },
+      "Tuesday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "Independent Learning Project", "room": "138"},
+          "2": {"subject": "Science", "room": "118"},
+          "3": {"subject": "Mathematics", "room": "159"},
+          "4": {"subject": "Geography", "room": "33"},
+          "5": {"subject": "Physical Education", "room": "139"}
+        }
+      },
+      "Wednesday": {
+        "period_template": "wednesday_year10",
+        "subjects": {
+          "1": {"subject": "English", "room": "139"},
+          "2": {"subject": "Computing Technology", "room": "166"},
+          "3": {"subject": "Engineering Technology", "room": "163"},
+          "4": {"subject": "Racquet Sports", "room": "140"}
+        }
+      },
+      "Thursday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "Physical Education", "room": "31"},
+          "2": {"subject": "Geography", "room": "33"},
+          "3": {"subject": "Science", "room": "118"},
+          "4": {"subject": "Mathematics", "room": "159"},
+          "5": {"subject": "Computing Technology", "room": "166"}
+        }
+      },
+      "Friday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "English", "room": "139"},
+          "2": {"subject": "Geography", "room": "33"},
+          "3": {"subject": "Engineering Technology", "room": "163"},
+          "4": {"subject": "Mathematics", "room": "159"},
+          "5": {"subject": "Science", "room": "121"},
+          "6": {"subject": "Independent Learning Project", "room": "206"}
+        }
+      }
+    },
+    "B": {
+      "Monday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "English", "room": "139"},
+          "2": {"subject": "Engineering Technology", "room": "163"},
+          "3": {"subject": "Independent Learning Project", "room": "206"},
+          "4": {"subject": "English", "room": "139"},
+          "5": {"subject": "Mathematics", "room": "159"},
+          "6": {"subject": "Science", "room": "118"}
+        }
+      },
+      "Tuesday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "Physical Education", "room": "34"},
+          "2": {"subject": "Computing Technology", "room": "166"},
+          "3": {"subject": "Geography", "room": "33"},
+          "4": {"subject": "English", "room": "139"},
+          "5": {"subject": "Engineering Technology", "room": "163"}
+        }
+      },
+      "Wednesday": {
+        "period_template": "wednesday_year10",
+        "subjects": {
+          "1": {"subject": "Science", "room": "118"},
+          "2": {"subject": "Independent Learning Project", "room": "206"},
+          "3": {"subject": "Mathematics", "room": "159"},
+          "4": {"subject": "Racquet Sports", "room": "140"}
+        }
+      },
+      "Thursday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "English", "room": "139"},
+          "2": {"subject": "Geography", "room": "204"},
+          "3": {"subject": "Science", "room": "118"},
+          "4": {"subject": "Engineering Technology", "room": "163"},
+          "5": {"subject": "Mathematics", "room": "159"}
+        }
+      },
+      "Friday": {
+        "period_template": "standard_days",
+        "subjects": {
+          "1": {"subject": "Geography", "room": "33"},
+          "2": {"subject": "Mathematics", "room": "159"},
+          "3": {"subject": "Computing Technology", "room": "166"},
+          "4": {"subject": "English", "room": "139"},
+          "5": {"subject": "Physical Education", "room": "139"},
+          "6": {"subject": "Science", "room": "118"}
+        }
+      }
+    }
+  }
+}
